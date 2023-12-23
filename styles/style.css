@@ -1,0 +1,211 @@
+:root {
+    --primary-color: hsl(47, 88%, 63%);
+    --neutral-white-color: hsl(0, 0%, 100%);
+    --neutral-black-color: hsl(0, 0%, 7%);
+    --neutral-gray-color: hsl(0, 0%, 50%);
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Montserrat:wght@300;400;500;600;700&display=swap');
+  
+  body {
+    background-color: var(--primary-color);
+    font-family: 'Figtree', sans-serif;
+    overflow: hidden;
+    font-size: 16px;
+  }
+  
+  .blog-card {
+    width: 370px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    background: var(--neutral-white-color);
+    border-radius: 20px;
+    border: 1px solid var(--neutral-black-color);
+    box-shadow: 8px 8px var(--neutral-black-color);
+  } 
+  
+  .blog-card:active {
+    box-shadow: 12px 12px var(--neutral-black-color);
+  }
+  
+  .hero-img {
+    padding: 20px;
+  }
+  
+  .hero-img img {
+    border-radius: 10px;
+  }
+  
+  section {
+    padding: 0 20px;
+  }
+  
+  section button {
+    background: var(--primary-color);
+    border-style: none;
+    outline: none;
+    padding: 8px;
+    font-weight: 800;
+    border-radius: 5px;
+  }
+  
+  p.par {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  p.des {
+    color: var(--neutral-gray-color);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  section h1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--neutral-black-color);
+  }
+  
+  section h1:active {
+    color: var(--primary-color);
+    cursor: pointer;
+  }
+  
+  footer {
+    margin-left: -155px;
+    padding-bottom: 20px;
+  }
+  
+  footer img,
+  footer p {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  footer img {
+    width: 40px;
+  }
+  
+  footer p {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .attribution {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 375px){
+    body {
+      background-color: var(--primary-color);
+      font-family: 'Figtree', sans-serif;
+      overflow: hidden;
+      font-size: 16px;
+      margin-top: 65px;
+    }
+    
+    .blog-card {
+      width: 270px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      box-sizing: border-box;
+      margin: auto;
+      background: var(--neutral-white-color);
+      border-radius: 20px;
+      border: 1px solid var(--neutral-black-color);
+      box-shadow: 8px 8px var(--neutral-black-color);
+    } 
+    
+    .blog-card:active {
+      box-shadow: 12px 12px var(--neutral-black-color);
+    }
+    
+    .hero-img {
+      padding: 20px;
+    }
+    
+    .hero-img img {
+      border-radius: 10px;
+      width: 240px;
+    }
+    
+    section {
+      padding: 0 20px;
+    }
+    
+    section button {
+      background: var(--primary-color);
+      border-style: none;
+      outline: none;
+      padding: 8px;
+      font-weight: 800;
+      border-radius: 5px;
+    }
+    
+    p.par {
+      font-size: 13px;
+      font-weight: 600;
+    }
+    
+    p.des {
+      color: var(--neutral-gray-color);
+      font-size: 13px;
+      font-weight: 600;
+    }
+    
+    section h1 {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--neutral-black-color);
+    }
+    
+    section h1:active {
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+    
+    footer {
+      margin-left: -90px;
+      padding-bottom: 20px;
+    }
+    
+    footer img,
+    footer p {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    
+    footer img {
+      width: 30px;
+    }
+    
+    footer p {
+      padding: 7px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    
+    .attribution {
+      text-align: center;
+      padding: 30px;
+    }
+    
+    .attribution a {
+      text-decoration: none;
+    }
+  
+  }
